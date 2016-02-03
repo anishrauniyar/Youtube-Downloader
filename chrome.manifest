@@ -1,0 +1,2 @@
+content manageurl content/
+overlay chrome://browser/content/browser.xul chrome://manageurl/content/download.xul

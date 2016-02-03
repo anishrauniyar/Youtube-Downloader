@@ -1,0 +1,13 @@
+<?xml version="1.0"?>                 
+<overlay id="Scrapper-Overlay"
+xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<script charset="utf-8" type="application/x-javascript" src="chrome://manageurl/content/download.js" />
+<toolbox id="navigator-toolbox">
+  <toolbar id="download_id" toolbarname="YoutubeDownloader" >
+    <toolbarbutton id="download_button" label="DOWNLOAD" oncommand="download_function()" />  
+  </toolbar>
+</toolbox>
+<keyset id="mainKeyset"> 
+	<key id="key_convert_sendlink" key="l" modifiers="accel alt l" oncommand="download_function()"/> 
+</keyset>
+</overlay>
